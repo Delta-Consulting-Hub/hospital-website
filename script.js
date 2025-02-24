@@ -14,12 +14,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-    let button = document.getElementById("nextPageButton");
 
-    if (button) {
-        button.addEventListener("click", function () {
-            window.location.href = "/features_pages/feature.html"; // Absolute path
-        });
-    }
-});
